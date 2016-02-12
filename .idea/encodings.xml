@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/job/Fibon11.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/Hanoi.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/Massiv_7_4.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/NumFibon.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/NumHappyTickets.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/NumSymmElWatch.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/SMassiv.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/SimpleNum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/SumOlNum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/job/Summ_N.java" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>
