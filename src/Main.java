@@ -71,8 +71,11 @@ public class Main {
 //8. Подсчитайте, сколько раз потребуется повторно вычислить четвёртый элемент
 // последовательности Фибоначчи для вычисления пятнадцатого элемента.
 
-        /*NumFibon test = new NumFibon();
-        System.out.println("Need to calculate " + test.getNumFibon(15) / test.getNumFibon(4) + " timse.");*/
+       /* NumFibon test1 = new NumFibon();
+        NumFibon test2 = new NumFibon();
+        test1.getNumFibon(15);
+        test2.getNumFibon(4);
+        System.out.println("To calculate Fibonacci fifteenth element need " + test1.getCount() / test2.getCount() + " timse to calculate a fourth element. ");*/
 
 //9. Создайте код, который выводит все простые числа из интервала от 2 до n (заданного с
 // клавиатуры). Результат должен быть: 2,3,5,7 ...
