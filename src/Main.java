@@ -26,6 +26,7 @@ public class Main {
                 System.out.println(" 12 SummNumArray.");
                 System.out.println(" 13 ArrayZeroElement.");
                 System.out.println(" 14 PositivNgativNumbers.");
+                System.out.println(" 15 Increasing Sequence.");
                 System.out.println(" 0 - exit ");
                 choice = vod.nextInt();
             } while (choice < 0 | choice > 52);
@@ -112,6 +113,10 @@ public class Main {
                 case 14:
                     PositivNgativNumbers test14 = new PositivNgativNumbers();
                     test14.getNumPositNegat();
+                    break;
+                case 15:
+                    IncreasingSequence test15 = new IncreasingSequence();
+                    System.out.println("The sequence is increasing: " + test15.isIncreasingSequence());
                     break;
 
             }
