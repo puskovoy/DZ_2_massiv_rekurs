@@ -22,6 +22,7 @@ public class Main {
                 System.out.println(" 8 Recalculate the fourth element of the Fibonacci sequence to calculate the fifteenth element.");
                 System.out.println(" 9 All prime numbers in the interval from 2 to n.");
                 System.out.println(" 10 The Hanoi pyramid.");
+                System.out.println(" 11 List.");
                 System.out.println(" 0 - exit ");
                 choice = vod.nextInt();
             } while (choice < 0 | choice > 52);
@@ -86,6 +87,16 @@ public class Main {
                     test10.MoveHanoi(vod.nextInt(), 1, 3, 2);
                     System.out.println("Min need to move " + test10.getMoves() + " times.");
                     break;
+                case 11:
+                    WorkWithCollection test11 = new WorkWithCollection();
+                    System.out.println("Collections LinkedList " + test11.getSorted());
+                    System.out.println("Collections ArrayList " + test11.getSortedArrayList());
+                    System.out.println("Collections HashMap " + test11.getSortedMap());
+                    System.out.println("Collections LinkedHashMap " + test11.getSortedLinkedHashMap());
+                    System.out.println("Collections HashSet " + test11.getSortedSet());
+                    System.out.println("Collections LinkedHashSet " + test11.getSortedLinkedHashSet());
+                    break;
+
             }
             System.out.println();
         }
