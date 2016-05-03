@@ -23,6 +23,9 @@ public class Main {
                 System.out.println(" 9 All prime numbers in the interval from 2 to n.");
                 System.out.println(" 10 The Hanoi pyramid.");
                 System.out.println(" 11 List.");
+                System.out.println(" 12 SummNumArray.");
+                System.out.println(" 13 ArrayZeroElement.");
+                System.out.println(" 14 PositivNgativNumbers.");
                 System.out.println(" 0 - exit ");
                 choice = vod.nextInt();
             } while (choice < 0 | choice > 52);
@@ -95,6 +98,20 @@ public class Main {
                     System.out.println("Collections LinkedHashMap " + test11.getSortedLinkedHashMap());
                     System.out.println("Collections HashSet " + test11.getSortedSet());
                     System.out.println("Collections LinkedHashSet " + test11.getSortedLinkedHashSet());
+                    break;
+                case 12:
+                    System.out.println("Please enter the number: ");
+                    int k = vod.nextInt();
+                    SummNumArray test12 = new SummNumArray();
+                    test12.getSumAllEllArr(k);
+                    break;
+                case 13:
+                    ArrayZeroElement test13 = new ArrayZeroElement();
+                    test13.getZeroElemen();
+                    break;
+                case 14:
+                    PositivNgativNumbers test14 = new PositivNgativNumbers();
+                    test14.getNumPositNegat();
                     break;
 
             }

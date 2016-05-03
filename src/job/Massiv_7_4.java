@@ -2,9 +2,6 @@ package job;
 
 import java.util.Random;
 
-/**
- * Created by User on 22.01.2016.
- */
 public class Massiv_7_4 {
     private int[][] arr = new int[7][4];
 
